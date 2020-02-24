@@ -13,5 +13,5 @@ const linkifyEnvs = () => {
 
 //on init perform based on chrome strorage value
 window.onload=function(){
-    chrome.storage.sync.get('transform', linkifyEnvs)
+    linkifyEnvs()
 }
