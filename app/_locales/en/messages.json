@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "linkify envs",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Trnansform jenkins environments description to links",
+    "description": "The description of the application"
+  }
+}

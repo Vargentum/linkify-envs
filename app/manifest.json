@@ -1,0 +1,25 @@
+{
+  "name": "Linkify-jenkins-envs",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extension turns jenkins dashboard project descriptions (aka envs) into links when possible.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://ci.x2sy.com/*"],
+      "js": ["scripts/content.js"]
+    }
+  ],
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "libs/polyfill.min.js",
+      "scripts/chromereload.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": []
+}
