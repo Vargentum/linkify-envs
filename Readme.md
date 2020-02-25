@@ -1,7 +1,7 @@
 # Linkify envs chrome extension
 
 ## Description
-This chrome extension allows you to turn jenkins project descriptions (aka envs) into links. It works only on some jenkins.
+This chrome extension is for those who tired copy-pasting jenkins project description links into browser searchbox. Now the links are clickable!
 
 
 ## How to use
